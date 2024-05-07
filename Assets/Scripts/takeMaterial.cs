@@ -27,8 +27,8 @@ public class RevealObjectOnCollision : MonoBehaviour
         {
             if (smallMaterial != null)
             {
-                smallMaterial.SetActive(true);  // Makes the hidden object visible
-                isRevealed = true;  // Prevents re-triggering
+                smallMaterial.SetActive(true); 
+                isRevealed = true; 
             }
         }
     }

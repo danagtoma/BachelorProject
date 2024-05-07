@@ -465,27 +465,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1fb931a6ad2df934a9f9c469ae1db84e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.0220885
+      value: 2.5344856
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1fb931a6ad2df934a9f9c469ae1db84e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.0220885
+      value: 2.5344856
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1fb931a6ad2df934a9f9c469ae1db84e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.0220885
+      value: 2.5344856
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1fb931a6ad2df934a9f9c469ae1db84e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -67
+      value: -61
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1fb931a6ad2df934a9f9c469ae1db84e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 121.783646
+      value: 114.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1fb931a6ad2df934a9f9c469ae1db84e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 95
+      value: 94.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1fb931a6ad2df934a9f9c469ae1db84e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1233,8 +1233,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 1.0400808
-  m_Center: {x: -0.0009252156, y: 0.14560808, z: -0.45844436}
+  m_Radius: 1.111526
+  m_Center: {x: -0.0009252161, y: 0.14560808, z: -0.5548366}
 --- !u!23 &1226961640
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1346,7 +1346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301349232}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1854,6 +1854,8 @@ MonoBehaviour:
   drillScript: {fileID: 1024132831}
   fillCavity: {fileID: 1441390592}
   smallMaterial: {fileID: 1226961636}
+  drill: {fileID: 398137832}
+  spatula: {fileID: 1056871355}
 --- !u!4 &2085794634 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 157711a5c44053940b7cfcd48c492f17, type: 3}
@@ -2098,9 +2100,9 @@ SceneRoots:
   - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 889045957}
-  - {fileID: 1243562517123268910}
-  - {fileID: 2127450084}
   - {fileID: 1759520810}
   - {fileID: 1301349235}
+  - {fileID: 1243562517123268910}
+  - {fileID: 2127450084}
   - {fileID: 651118933}
   - {fileID: 809827086}

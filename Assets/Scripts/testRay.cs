@@ -13,7 +13,6 @@ public class TestRaycast : MonoBehaviour
             {
                 Debug.Log("Hit: " + hit.transform.name);
 
-                // Draw the ray in the Scene view (visible while the scene is playing)
                 Debug.DrawRay(ray.origin, ray.direction * hit.distance, Color.red, 2.0f);
             }
         }

@@ -1,22 +1,38 @@
 using UnityEngine;
-using UnityEngine.UI; // Required to use Unity UI components
+using UnityEngine.UI; 
 
 public class ResetScale : MonoBehaviour
 {
     public Transform cavityBlack;
-    public Transform cavityRed;// Reference to the object to reset
+    public Transform cavityRed;
     public Vector3 cavityBlackDefaultScale = new Vector3(1, 1, 1);
-    public Vector3 cavityRedDefaultScale = new Vector3(0.55f, 0.55f, 0.55f);// The scale to reset to
+    public Vector3 cavityRedDefaultScale = new Vector3(0.55f, 0.55f, 0.55f);
     public DrillIntoSphere drillScript;
     public FillCavity fillCavity;
     public GameObject smallMaterial;
+    public GameObject drill;
+    public GameObject spatula;
+
+    Vector3 startDrillPosition;
+    Vector3 startSpatulaPosition;
+    Quaternion startDrillRotation;
+    Quaternion startSpatulaRotation;
     void Start()
     {
-        // Get the Button component and add a listener for the OnClick event
         Button button = GetComponent<Button>();
         if (button != null)
         {
-            button.onClick.AddListener(ResetTargetScale); // Add event listener for the button click
+            button.onClick.AddListener(ResetTargetScale); 
+        }
+        if(drill != null)
+        {
+            startDrillPosition = drill.transform.position;
+            startDrillRotation = drill.transform.rotation;
+        }
+        if (spatula != null)
+        {
+            startSpatulaPosition = spatula.transform.position;
+            startSpatulaRotation = spatula.transform.rotation;
         }
     }
 
@@ -24,7 +40,6 @@ public class ResetScale : MonoBehaviour
     {
         if (cavityBlack != null)
         {
-            // Reset the target object's scale to the default value
             cavityBlack.localScale = cavityBlackDefaultScale;
             drillScript.ResetDrilling();
         }
@@ -36,6 +51,14 @@ public class ResetScale : MonoBehaviour
         if(smallMaterial != null)
         {
             smallMaterial.SetActive(false);
+        }
+        if (drill != null)
+        {
+            drill.transform.SetPositionAndRotation(startDrillPosition, startDrillRotation );
+        }
+        if (spatula != null)
+        {
+            spatula.transform.SetPositionAndRotation(startSpatulaPosition, startSpatulaRotation);
         }
     }
 }
