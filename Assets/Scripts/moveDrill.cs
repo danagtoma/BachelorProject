@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DragObject : MonoBehaviour
+public class MoveDrill : MonoBehaviour
 {
     private Vector3 offset;
     private float zCoordinate;

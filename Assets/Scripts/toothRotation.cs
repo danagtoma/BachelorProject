@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DragRotateOnPress : MonoBehaviour
+public class ToothRotation : MonoBehaviour
 {
     public float rotationSpeed = 0.5f;  
     private Vector3 previousMousePosition;

@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 5cd8af3c1aeda36409dfd73bdef18d7e
+  - enabled: 1
+    path: Assets/Scenes/Cavity Repair.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Congratulation.unity
+    guid: 209c4906a80a1fc45a009e4ccd7d3f94
+  - enabled: 0
+    path: Assets/Scenes/bbbb.unity
+    guid: 7020a04e961d088499497e1606acb6e7
   m_configObjects: {}

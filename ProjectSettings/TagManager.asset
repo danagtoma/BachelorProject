@@ -8,6 +8,7 @@ TagManager:
   - drill
   - material
   - spatula
+  - audio
   layers:
   - Default
   - TransparentFX

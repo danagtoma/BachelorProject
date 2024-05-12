@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class RevealObjectOnCollision : MonoBehaviour
+public class TakeMaterial : MonoBehaviour
 {
 
     public GameObject smallMaterial;

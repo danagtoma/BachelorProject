@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TestRaycast : MonoBehaviour
+public class TestRay : MonoBehaviour
 {
     private void Update()
     {
