@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/bbbb.unity
     guid: 7020a04e961d088499497e1606acb6e7
+  - enabled: 1
+    path: Assets/Scenes/PlaqueAttack.unity
+    guid: 4c6f9a9ad90e9af41b8f341a03703800
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4b98b7863c5bb924f84eddb12575bb48, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 46c1dbdc68d5d424cb54dc62dc96a217, type: 2}

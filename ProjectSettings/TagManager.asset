@@ -9,6 +9,8 @@ TagManager:
   - material
   - spatula
   - audio
+  - bacteria
+  - toothpaste
   layers:
   - Default
   - TransparentFX
