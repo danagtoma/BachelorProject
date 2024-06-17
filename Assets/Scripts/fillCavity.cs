@@ -13,6 +13,8 @@ public class FillCavity : MonoBehaviour
     private bool isGrowing = false;
 
     public GameObject cavityBlack;
+    public GameObject cavityRed;
+    public GameObject smallMaterial;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -41,7 +43,16 @@ public class FillCavity : MonoBehaviour
     {
         if (isGrowing && cavityBlack.transform.localScale.x < 0.55f)
         {
-            
+            Renderer childRenderer = GetComponentInChildren<Renderer>();
+            if (childRenderer != null && smallMaterial != null)
+            {
+                Renderer smallMaterialRenderer = smallMaterial.GetComponent<Renderer>();
+                if (smallMaterialRenderer != null)
+                {
+                    childRenderer.material = smallMaterialRenderer.material;
+                }
+            }
+
             t += Time.deltaTime / GrowDuration;
 
             
@@ -65,6 +76,7 @@ public class FillCavity : MonoBehaviour
         enabled = true;  
         t = 0;  
         transform.localScale = startScale;  
-        isGrowing = false;  
+        isGrowing = false;
+        cavityRed.SetActive(false);
     }
 }

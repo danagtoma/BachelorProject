@@ -4,6 +4,7 @@ public class ChechHealth : MonoBehaviour
 {
     [SerializeField] private string bacteria = "bacteria";
     [SerializeField] private HealthManager healthManager;
+    [SerializeField] private BacteriaSpawner spawner;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -11,6 +12,7 @@ public class ChechHealth : MonoBehaviour
         {
             Destroy(other.gameObject);
             healthManager.TakeDamage(20);
+            spawner.DeleteObject(other.gameObject);
         }
     }
 }

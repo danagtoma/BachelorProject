@@ -17,12 +17,6 @@ public class HealthManager : MonoBehaviour
         {
            SceneManager.LoadScene(homeScene);
         }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Heal(20);
-        }
-
     }
 
     public void TakeDamage(float damage)

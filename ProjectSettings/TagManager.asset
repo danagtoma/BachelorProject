@@ -11,6 +11,25 @@ TagManager:
   - audio
   - bacteria
   - toothpaste
+  - shield
+  - floss
+  - tooth1
+  - tooth2
+  - tooth3
+  - tooth3.1
+  - tooth3.2
+  - tooth3.3
+  - tooth3.4
+  - tooth3.5
+  - tooth3.6
+  - tooth3.7
+  - tooth4.1
+  - tooth4.2
+  - tooth4.3
+  - tooth4.4
+  - tooth4.5
+  - tooth4.6
+  - tooth4.7
   layers:
   - Default
   - TransparentFX

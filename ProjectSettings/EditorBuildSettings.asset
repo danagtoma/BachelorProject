@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/AR-Cavity.unity
     guid: d2a875436b55aa14aa752377aeb15dc1
   - enabled: 1
-    path: Assets/Scenes/Congratulation.unity
+    path: Assets/Scenes/CR - Congratulation.unity
     guid: 209c4906a80a1fc45a009e4ccd7d3f94
   - enabled: 0
     path: Assets/Scenes/bbbb.unity
@@ -23,6 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlaqueAttack.unity
     guid: 4c6f9a9ad90e9af41b8f341a03703800
+  - enabled: 1
+    path: Assets/Scenes/PA-Congratulation.unity
+    guid: ee76a78857fb9c1469021a5a176629bb
+  - enabled: 1
+    path: Assets/Scenes/PA-Defeate.unity
+    guid: 2ba3ed4d9d533174f8a6b18b59224ccd
+  - enabled: 1
+    path: Assets/Scenes/TreasureHunt.unity
+    guid: 106402bcdc668434680bfadf0121bd8e
+  - enabled: 1
+    path: Assets/Scenes/TH-Congratulation.unity
+    guid: 95225bb6b67406b4f8a1f5a2327950bb
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4b98b7863c5bb924f84eddb12575bb48, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 46c1dbdc68d5d424cb54dc62dc96a217, type: 2}

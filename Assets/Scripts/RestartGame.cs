@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; 
 
@@ -12,11 +13,21 @@ public class RestartGame : MonoBehaviour
     public GameObject smallMaterial;
     public GameObject drill;
     public GameObject spatula;
+    public GameObject brush;
+    public BacteriaSpawner bacteriaSpawner;
+    public StartAttack startAttack;
+    public HealthManager healthManager;
+    public DestroyBacteria destroyBacteria;
+    public CountdownManager countdownManager;
+    public ToothSpawner toothSpawner;
+    public List<Tooth> teeth;
 
     Vector3 startDrillPosition;
     Vector3 startSpatulaPosition;
+    Vector3 startBrushPositon;
     Quaternion startDrillRotation;
     Quaternion startSpatulaRotation;
+    Quaternion startBrushRotation;
     void Start()
     {
         Button button = GetComponent<Button>();
@@ -33,6 +44,11 @@ public class RestartGame : MonoBehaviour
         {
             startSpatulaPosition = spatula.transform.position;
             startSpatulaRotation = spatula.transform.rotation;
+        }
+        if (brush != null)
+        {
+            startBrushPositon = brush.transform.position;
+            startBrushRotation = brush.transform.rotation;
         }
     }
 
@@ -59,6 +75,20 @@ public class RestartGame : MonoBehaviour
         if (spatula != null)
         {
             spatula.transform.SetPositionAndRotation(startSpatulaPosition, startSpatulaRotation);
+        }
+        if (brush != null)
+        {
+            brush.transform.SetPositionAndRotation(startBrushPositon, startBrushRotation);
+            bacteriaSpawner.ResetBacteriaSpawner();
+            startAttack.RestartAttack();
+            healthManager.Heal(100);
+            destroyBacteria.FillPaste(100);
+            countdownManager.StopCountDown();
+        }
+        toothSpawner.ResetTeethSpawner();
+        foreach (Tooth tooth in teeth)
+        {
+            tooth.ResetTooth();
         }
     }
 }

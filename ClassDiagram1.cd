@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ShieldManager">
+    <Position X="18.5" Y="10.5" Width="1.75" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="22.5" Y="7.473" />
+        <Point X="22.5" Y="7.848" />
+        <Point X="18.377" Y="7.848" />
+        <Point X="18.377" Y="11.823" />
+        <Point X="18.5" Y="11.823" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACAAAAAAAAAAgAAAEAAAAAAQAAgAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\ShieldManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BacteriaSpawner">
+    <Position X="16.25" Y="8" Width="2" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.5" Y="7.473" />
+        <Point X="22.5" Y="7.848" />
+        <Point X="17.188" Y="7.848" />
+        <Point X="17.188" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ghAEAAAAGAAAAAAAAAIIACAAIAAAMAAAQAAAABAQgAQ=</HashCode>
+      <FileName>Assets\Scripts\BacteriaSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RestartGame">
+    <Position X="13.75" Y="5" Width="2" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.5" Y="7.473" />
+        <Point X="22.5" Y="7.812" />
+        <Point X="15.75" Y="7.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>hAAAGAQAAiIMAIAAAAAAgQAAAAAAACAAAiAEBQSAEgA=</HashCode>
+      <FileName>Assets\Scripts\RestartGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour">
+    <Position X="21.75" Y="4.25" Width="1.5" />
+    <Members>
+      <Method Name="print" Hidden="true" />
+      <Method Name="StartCoroutine_Auto" Hidden="true" />
+      <Method Name="StopAllCoroutines" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Behaviour" Collapsed="true">
+    <Position X="19.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Component" Collapsed="true">
+    <Position X="19.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Object" Collapsed="true">
+    <Position X="19.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CountdownManager">
+    <Position X="20.25" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAACAAAAQAgAAAAAAAACCAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CountDownManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DestroyBacteria">
+    <Position X="22.25" Y="8.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="22.5" Y="7.473" />
+        <Point X="22.5" Y="7.848" />
+        <Point X="23" Y="7.848" />
+        <Point X="23" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQABAAAgEAAAAAAEgAAAAAAAAACAAEARAAgAAAAABA=</HashCode>
+      <FileName>Assets\Scripts\DestroyBacteria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrillOperating">
+    <Position X="24.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAIAAAEIAAABAoAAACgAAAIAAQAQABAAACAA=</HashCode>
+      <FileName>Assets\Scripts\drillOperating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FillCavity">
+    <Position X="26" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEQAAAAQAAAAAEAAAAAAgAAEAAAAAIAAQAQABAAACAA=</HashCode>
+      <FileName>Assets\Scripts\FillCavity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthManager">
+    <Position X="18.5" Y="8" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="22.5" Y="7.473" />
+        <Point X="22.5" Y="7.848" />
+        <Point X="19.25" Y="7.848" />
+        <Point X="19.25" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAgQAQAAA=</HashCode>
+      <FileName>Assets\Scripts\HealthManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveDrill">
+    <Position X="27.75" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="22.5" Y="7.473" />
+        <Point X="22.5" Y="7.812" />
+        <Point X="23.5" Y="7.812" />
+        <Point X="23.5" Y="7.125" />
+        <Point X="28.5" Y="7.125" />
+        <Point X="28.5" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAACAAAAAQAIAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\moveDrill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShowCongratulation">
+    <Position X="16" Y="5" Width="1.75" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="22.5" Y="7.473" />
+        <Point X="22.5" Y="7.848" />
+        <Point X="16.875" Y="7.848" />
+        <Point X="16.875" Y="7.646" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAAAACBQAAAAAAAAAAAAAACAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ShowCongratulation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TakeMaterial">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.5" Y="7.473" />
+        <Point X="22.5" Y="7.848" />
+        <Point X="23.5" Y="7.848" />
+        <Point X="23.5" Y="7.125" />
+        <Point X="25" Y="7.125" />
+        <Point X="25" Y="6.761" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAAAAAAAAAQAAAAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TakeMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tooth">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.5" Y="7.473" />
+        <Point X="22.5" Y="7.848" />
+        <Point X="23.5" Y="7.848" />
+        <Point X="23.5" Y="7.125" />
+        <Point X="26.75" Y="7.125" />
+        <Point X="26.75" Y="6.761" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAAAAAAAACAAAAAAAAAAAAMAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ToothBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToothSpawner">
+    <Position X="27.75" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="22.5" Y="7.473" />
+        <Point X="22.5" Y="7.812" />
+        <Point X="23.5" Y="7.812" />
+        <Point X="23.5" Y="7.125" />
+        <Point X="28.125" Y="7.125" />
+        <Point X="28.125" Y="6.896" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAACAAAAAACAAABAACCAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\ToothSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

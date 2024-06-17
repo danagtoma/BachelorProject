@@ -8,17 +8,26 @@ public class ShowCongratulation : MonoBehaviour
     public int congratulationScene;
     public GameObject cavity;
     public RestartGame restartGame;
+    public int waitTime = 5;
 
     private void Update()
     {
         if (cavity.transform.localScale == Vector3.one)
         {
-            StartCongratulationScene();
+            StartCoroutine(StartCongratulationSceneWithDelay());
         }
     }
+
     public void StartCongratulationScene()
     {
+         
          SceneManager.LoadScene(congratulationScene);
          restartGame.ResetTargetScale();
     }
+    private IEnumerator StartCongratulationSceneWithDelay()
+    {
+        yield return new WaitForSeconds(waitTime);
+        StartCongratulationScene();
+    }
+
 }

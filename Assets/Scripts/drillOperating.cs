@@ -16,6 +16,10 @@ public class DrillOperating : MonoBehaviour
     private float nextVibrationTime = 0.0f;
 
     private bool isDrilling = false;
+
+    public GameObject cavityBlack;
+    public GameObject cavityRed;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("drill"))
@@ -54,8 +58,15 @@ public class DrillOperating : MonoBehaviour
             if (Time.time >= nextVibrationTime)
             {
                 TriggerVibration();
-                nextVibrationTime = Time.time + vibrationInterval; // Update next allowed vibration time
+                nextVibrationTime = Time.time + vibrationInterval;
             }
+        }
+
+
+        if (cavityBlack.transform.localScale.x < 0.55f)
+        {
+            cavityRed.SetActive(true);
+            cavityBlack.SetActive(false);
         }
     }
 
@@ -65,11 +76,11 @@ public class DrillOperating : MonoBehaviour
         t = 0;
         transform.localScale = startScale;
         isDrilling = false;
+        cavityBlack.SetActive(true);
     }
 
     private void TriggerVibration()
     {
-        // Use Handheld.Vibrate() for simple vibration on mobile devices
         Handheld.Vibrate();
     }
 }

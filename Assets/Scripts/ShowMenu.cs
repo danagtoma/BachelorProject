@@ -11,7 +11,7 @@ public class ShowMenu : MonoBehaviour
 
     public void OnPointerClick()
     {
-        isCanvasVisible = !isCanvasVisible;
         showMenuCanvas.gameObject.SetActive(isCanvasVisible);
+        isCanvasVisible = !isCanvasVisible;
     }
 }

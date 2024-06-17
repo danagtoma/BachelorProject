@@ -24,9 +24,14 @@ public class TakeMaterial : MonoBehaviour
     void Update()
     {
         if (isRevealed)
-        {
+        { 
+            Renderer renderer = GetComponent<Renderer>();
             if (smallMaterial != null)
             {
+                Material material = renderer.material;
+                Renderer smallMaterialRenderer = smallMaterial.GetComponent<Renderer>();
+                smallMaterialRenderer.material = material;
+
                 smallMaterial.SetActive(true); 
                 isRevealed = true; 
             }
