@@ -3,63 +3,6 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 
-/*public class ToothSpawner : MonoBehaviour
-{
-    [System.Serializable]
-    public class SpawnArea
-    {
-        public Vector3 minBounds;
-        public Vector3 maxBounds;
-    }
-
-    public List<GameObject> objectsToSpawn; 
-    public SpawnArea spawnArea;
-    public int totalObjectsToSpawn = 16; 
-    public float spawnInterval = 15f; 
-
-    void Start()
-    {
-        StartCoroutine(SpawnObjectsAtIntervals());
-    }
-
-    IEnumerator SpawnObjectsAtIntervals()
-    {
-        for (int i = 0; i < totalObjectsToSpawn; i++)
-        {
-            if (objectsToSpawn.Count == 0)
-            {
-                Debug.LogWarning("All objects have been spawned.");
-                yield break;
-            }
-
-            SpawnRandomObject();
-            yield return new WaitForSeconds(spawnInterval);
-        }
-    }
-
-    void SpawnRandomObject()
-    {
-        if (objectsToSpawn.Count == 0)
-        {
-            Debug.LogWarning("No objects to spawn. Add objects to the objectsToSpawn list.");
-            return;
-        }
-
-        int randomIndex = Random.Range(0, objectsToSpawn.Count);
-        GameObject objectToSpawn = objectsToSpawn[randomIndex];
-
-        Vector3 randomPosition = new Vector3(
-            Random.Range(spawnArea.minBounds.x, spawnArea.maxBounds.x),
-            Random.Range(spawnArea.minBounds.y, spawnArea.maxBounds.y),
-            Random.Range(spawnArea.minBounds.z, spawnArea.maxBounds.z)
-        );
-
-        Instantiate(objectToSpawn, randomPosition, Quaternion.identity);
-
-        objectsToSpawn.RemoveAt(randomIndex);
-    }
-}*/
-
 public class ToothSpawner : MonoBehaviour
 {
     public List<GameObject> teeth;

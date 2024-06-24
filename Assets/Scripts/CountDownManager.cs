@@ -22,14 +22,14 @@ public class CountdownManager : MonoBehaviour
 
         while (remainingTime > 0)
         {
-            countdownText.text = "Timp Ramas: " + remainingTime.ToString() + "s";
+            countdownText.text = "Time: " + remainingTime.ToString() + "s";
             yield return new WaitForSeconds(1);
             remainingTime--;
         }
 
         if (!stopCountdown)
         {
-            countdownText.text = "Timpul a expirat!";
+            countdownText.text = "Time is up!";
             SceneManager.LoadScene(finalScene);
         }
     }
@@ -42,6 +42,6 @@ public class CountdownManager : MonoBehaviour
             StopCoroutine(countdownCoroutine);
             countdownCoroutine = null;
         }
-        countdownText.text = "Tmpiul este oprit";
+        countdownText.text = "Time is stopped";
     }
 }

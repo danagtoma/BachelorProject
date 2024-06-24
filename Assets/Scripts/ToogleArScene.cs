@@ -4,19 +4,17 @@ using UnityEngine.UI;
 
 public class ToogleArScene : MonoBehaviour
 {
-    public Toggle toggle; // Reference to the Toggle component
-    public int sceneToLoad; // Name of the scene to switch to when toggled on
-    public int sceneToLoadOnToggleOff; // Name of the scene to switch to when toggled off
-    private const string ToggleStateKey = "ToggleState"; // Key to save toggle state
+    public Toggle toggle; 
+    public int sceneToLoad; 
+    public int sceneToLoadOnToggleOff; 
+    private const string ToggleStateKey = "ToggleState"; 
 
     void Start()
     {
         if (toggle != null)
         {
-            // Load the saved toggle state
             bool savedState = PlayerPrefs.GetInt(ToggleStateKey, 0) == 1;
             toggle.isOn = savedState;
-            // Add listener to handle value changes
             toggle.onValueChanged.AddListener(OnToggleValueChanged);
         }
         else
@@ -27,11 +25,9 @@ public class ToogleArScene : MonoBehaviour
 
     void OnToggleValueChanged(bool isOn)
     {
-        // Save the toggle state
         PlayerPrefs.SetInt(ToggleStateKey, isOn ? 1 : 0);
         PlayerPrefs.Save();
 
-        // Load the appropriate scene based on the toggle state
         if (isOn)
         {
             SceneManager.LoadScene(sceneToLoad);

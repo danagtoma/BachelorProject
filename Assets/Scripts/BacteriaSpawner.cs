@@ -20,10 +20,6 @@ public class BacteriaSpawner : MonoBehaviour
 
     public void StartAttackFunction()
     {
-        //if (spawnCoroutine == null)
-        //{
-        //    spawnCoroutine = StartCoroutine(BacteriaSpawn());
-        //}
         spawnCoroutine ??= StartCoroutine(BacteriaSpawn());
     }
 
@@ -59,10 +55,8 @@ public class BacteriaSpawner : MonoBehaviour
             StartCoroutine(RemoveObjectAfterDelay(gameObject, 7f));
 
             currentSpawnSpeedMin -= spawnSpeedIncreaseRate;
-            //if(currentSpawnSpeedMax - spawnSpeedIncreaseRate >= 2)
-            //{
-                currentSpawnSpeedMax -= spawnSpeedIncreaseRate;
-            //}
+            currentSpawnSpeedMax -= spawnSpeedIncreaseRate;
+
             currentMoveSpeed += moveSpeedIncreaseRate;
 
             currentSpawnSpeedMin = Mathf.Clamp(currentSpawnSpeedMin,0, spawnSpeedMax);

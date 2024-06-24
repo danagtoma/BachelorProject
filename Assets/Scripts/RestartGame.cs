@@ -21,6 +21,7 @@ public class RestartGame : MonoBehaviour
     public CountdownManager countdownManager;
     public ToothSpawner toothSpawner;
     public List<Tooth> teeth;
+    public TriviaGame triviaGame;
 
     Vector3 startDrillPosition;
     Vector3 startSpatulaPosition;
@@ -85,10 +86,20 @@ public class RestartGame : MonoBehaviour
             destroyBacteria.FillPaste(100);
             countdownManager.StopCountDown();
         }
-        toothSpawner.ResetTeethSpawner();
-        foreach (Tooth tooth in teeth)
+        if(toothSpawner != null)
         {
-            tooth.ResetTooth();
+            toothSpawner.ResetTeethSpawner();
+        }
+        if(teeth != null)
+        {
+        foreach (Tooth tooth in teeth)
+                {
+                    tooth.ResetTooth();
+                }
+        }
+        if (triviaGame != null)
+        {
+            triviaGame.ResetTriviaGame();
         }
     }
 }
