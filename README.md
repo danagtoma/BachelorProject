@@ -17,12 +17,15 @@ In this project, I set out to develop a series of mobile games for children with
 
 
 ## Results
-![a1](https://user-images.githubusercontent.com/65070564/229372712-5fb28780-64e2-4e29-94f7-cf20e121231e.jpg)
-![a2](https://user-images.githubusercontent.com/65070564/229372715-4976007d-e134-44fd-8980-d1a7ab4166a2.jpg)
-![a3](https://user-images.githubusercontent.com/65070564/229372717-ba6a37db-f2ed-4324-afdd-fd9befaef7c5.jpg)
+<p align="center">
+  <img src="https://github.com/danagtoma/BachelorProject/assets/65070564/4541a106-4cf6-4bca-9c36-a6e89b68f788.jpg" width="200">
+  <img src="https://github.com/danagtoma/BachelorProject/assets/65070564/d0723801-1bab-4ea3-ad29-d45525b0d8d2.jpg" width="200">
+  <img src="https://github.com/danagtoma/BachelorProject/assets/65070564/98a86581-bc79-418a-8b89-30abfc091192.jpg" width="200">
+  <img src="https://github.com/danagtoma/BachelorProject/assets/65070564/bf2a2091-6300-40de-a56f-3e51291606dejpg" width="200">
+</p>
 
 ## Sources
-- "tooth" (https://www.turbosquid.com/3d-models/free-tooth-roots-3d-model/763377) by nemesla.
+- "Tooth" (https://www.turbosquid.com/3d-models/free-tooth-roots-3d-model/763377) by nemesla.
 - "Dental Instrument" (https://skfb.ly/ovD8B) by kemalccolak is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 - "CC0 - Tin Can Box" (https://skfb.ly/oGrYs) by plaggy is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 - "CC0 - Dental Sickle Probe 3" (https://skfb.ly/ooHSz) by plaggy is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
