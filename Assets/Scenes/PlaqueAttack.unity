@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44722033, g: 0.49660432, b: 0.5729622, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2497,7 +2497,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "There a bacterial attack.\n\nProtect your teeth for one minute to win.\n\nUse
+  m_text: "There is a bacterial attack.\n\nProtect your teeth for one minute to win.\n\nUse
     the brush to defend your teeth. But be careful. You need to refill your toothpaste.
     The floss can help you raise a shield for a couple of seconds. \n\nWhen you are
     ready start the game.\n\n\n\n\n\n\n       <sprite name=\"paste\">            
@@ -3650,7 +3650,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "There a bacterial attack.\n\nProtect your teeth for one minute to win.\n\nUse
+  m_text: "There is a bacterial attack.\n\nProtect your teeth for one minute to win.\n\nUse
     the brush to defend your teeth. But be careful. You need to refill your toothpaste.
     The floss can help you raise a shield for a couple of seconds. \n\n\n\n\n\n\n\n      
     <sprite name=\"paste\">             <sprite name=\"brush\">      <sprite name=\"floss\">\n\nToothPaste 
