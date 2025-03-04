@@ -25,12 +25,12 @@ In this project, I set out to develop a series of mobile games for children with
 </p>
 
 ## Sources
-- "Tooth" (https://www.turbosquid.com/3d-models/free-tooth-roots-3d-model/763377) by nemesla.
-- "Dental Instrument" (https://skfb.ly/ovD8B) by kemalccolak is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "CC0 - Tin Can Box" (https://skfb.ly/oGrYs) by plaggy is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "CC0 - Dental Sickle Probe 3" (https://skfb.ly/ooHSz) by plaggy is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "Rigged teeth with gums" (https://skfb.ly/6WMCS) by dorate is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "Human mouth detailed" (https://skfb.ly/oynnX) by Mince is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "Travel realistic tooth brush 2" (https://skfb.ly/oCAPY) by assetfactory is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "Toothpaste" (https://skfb.ly/DFoQ) by ajyotimahanta is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- "Dental Floss Harp" (https://skfb.ly/oOrIV) by GooGoobie is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- ["Tooth"](https://www.turbosquid.com/3d-models/free-tooth-roots-3d-model/763377) by nemesla.
+- ["Dental Instrument"](https://skfb.ly/ovD8B) by kemalccolak is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["CC0 - Tin Can Box"](https://skfb.ly/oGrYs) by plaggy is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["CC0 - Dental Sickle Probe 3"](https://skfb.ly/ooHSz) by plaggy is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["Rigged teeth with gums"](https://skfb.ly/6WMCS) by dorate is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["Human mouth detailed"](https://skfb.ly/oynnX) by Mince is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["Travel realistic tooth brush 2"](https://skfb.ly/oCAPY) by assetfactory is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["Toothpaste"](https://skfb.ly/DFoQ) by ajyotimahanta is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["Dental Floss Harp"](https://skfb.ly/oOrIV) by GooGoobie is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
